@@ -19,10 +19,11 @@ Dane
 
 Teksty książek do analizy zostały zaczerpnięte z pl.wikisource.org, z portalu autocentrum.pl, oraz ze strony ae-lib.org.ua/texts-c
 Do testów wybrałem następujące książki/artykuły:
-..* Henryk Sienkiewicz „Krzyżacy” cz.2
-..* Bolesław Prus „Lalka” tom I
-..* 3 najnowsze publikacje z portalu autocentrum.pl
-..* John R.R. Tolkien „The Lord Of The Rings: Return Of The King” book V
+
+* Henryk Sienkiewicz „Krzyżacy” cz.2
+* Bolesław Prus „Lalka” tom I
+* 3 najnowsze publikacje z portalu autocentrum.pl
+* John R.R. Tolkien „The Lord Of The Rings: Return Of The King” book V
 
 W tekstach zostały usunięte numery oraz tytuły rozdziałów, dane są załączone wraz z kodem programu na githubowym repozytorium tutaj. Program należy odpowiednio uruchomić z linii poleceń systemu z podaniem argumentów w postaci ścieżek do plików, które mają zostać przeanalizowane.
 
