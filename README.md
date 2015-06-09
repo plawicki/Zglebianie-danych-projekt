@@ -59,23 +59,23 @@ Ostatnim krokiem algorytmu jest posortowanie malejąco powstałej mapy, w tym pr
 
 wykres ilości występowań słów w tekście:
 
-![alt text](https://github.com/true-or-false/Zglebianie-danych-projekt/img/autocentrum.png "Wykres autocentrum")
+![alt text](https://github.com/true-or-false/Zglebianie-danych-projekt/blob/master/img/autocentrum.png?raw=true "Wykres autocentrum")
 
 
 #### 3. ***„Krzyżacy”***; Liczba słów: 23379
 
 wykres ilości występowań słów w tekście:
 
-![alt text](https://github.com/true-or-false/Zglebianie-danych-projekt/img/krzyzacy.png "Wykres Krzyżaków")
+![alt text](https://github.com/true-or-false/Zglebianie-danych-projekt/blob/master/img/krzyzacy.png?raw=true "Wykres Krzyżaków")
 
 #### 4. ***„Lalka”***; Liczba słów: 74923
 
 wykres ilości występowań słów w tekście:
 
-![alt text](https://github.com/true-or-false/Zglebianie-danych-projekt/img/lalka.png "Wykres Lalki")
+![alt text](https://github.com/true-or-false/Zglebianie-danych-projekt/blob/master/img/lalka.png?raw=true "Wykres Lalki")
 
 #### 5. ***„The Lord Of The Rings: Return Of The King”***; Liczba słów: 132722
 
 wykres ilości występowań słów w tekście:
 
-![alt text](https://github.com/true-or-false/Zglebianie-danych-projekt/img/lotr.png "Wykres LOTR")
+![alt text](https://github.com/true-or-false/Zglebianie-danych-projekt/blob/master/img/lotr.png?raw=true "Wykres LOTR")
