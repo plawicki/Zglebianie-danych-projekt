@@ -30,7 +30,7 @@ public class WordCounter {
 	}
 
 	private static String cleanString(String text) {
-		return text.toLowerCase().replaceAll("[\\.,-\\/#!$%\\^&\\*;—:—{}=\\-_`~()]", "");
+		return text.toLowerCase().replaceAll("[„\"\\.,-\\/#!?$%\\^&\\*;—:—{}=\\-_`~()]", "");
 	}
 
 	private static List<String> splitString(String text) {
