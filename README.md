@@ -1,21 +1,17 @@
-Prawo Zipf'a
-=
+# Prawo Zipf'a
 
 
-Wstęp
-===
+### Wstęp
 
 Prawo Zipf'a – jest to prawo, które mówi, iż częstotliwość występowania słów w tekście powinna być odwrotnie proporcjonalna do pozycji w rankigu, gdzie ranking jest tworzony poprzez zliczenie częstotliwości występowania słów oraz posortowania malejąco powstałej listy. Tzn. pierwsze napotkane przez algorytm słowo będzie występowało około dwa razy częściej niż drugie słowo z rankingu.
 
 
-Narzędzia
-===
+### Narzędzia
 
 Do rozpatrywania tego zagadnienia użyłem napisanego przeze mnie algorytmu w języku Java. Do uruchomienia projektu lokalnie wystarczy zainstalowany pakie jre w wersji 8.
 
 
-Dane
-===
+### Dane
 
 Teksty książek do analizy zostały zaczerpnięte z pl.wikisource.org, z portalu autocentrum.pl, oraz ze strony ae-lib.org.ua/texts-c
 Do testów wybrałem następujące książki/artykuły:
@@ -28,8 +24,7 @@ Do testów wybrałem następujące książki/artykuły:
 W tekstach zostały usunięte numery oraz tytuły rozdziałów, dane są załączone wraz z kodem programu na githubowym repozytorium tutaj. Program należy odpowiednio uruchomić z linii poleceń systemu z podaniem argumentów w postaci ścieżek do plików, które mają zostać przeanalizowane.
 
 
-Opis eksperymentów
-===
+### Opis eksperymentów
 
 Do sprawdzenia prawa Zipf'a dla polskich tekstów użyłem metody zliczania słów w tekście, taka metoda pomoże w prosty sposób stwierdzić czy prawo Zipfa jest prawdziwe.
 	Jak wspomniałem wcześniej do zbadania tego zagadnienia wykorzystuję własny algorytm, którego działanie najłatwiej będzie zademonstrować na przykładzie. Załóżmy, że mam do przeanalizowania następujące zdanie: 
