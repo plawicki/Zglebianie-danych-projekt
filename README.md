@@ -79,3 +79,11 @@ wykres ilości występowań słów w tekście:
 wykres ilości występowań słów w tekście:
 
 ![alt text](https://github.com/true-or-false/Zglebianie-danych-projekt/blob/master/img/lotr.png?raw=true "Wykres LOTR")
+
+### Interpretacja wyników
+
+Pierwszym moim spostrzeżeniem jest to, że w każdym wykresie widnieją te same słowa (+/-1 słowo), są one tylko lekko pozamieniane kolejnością w poszczególnych wykresach. Słowa te należą do tak zwanych ***stopwords***, czyli słów które same nie posiadają żadnej informacji, jeżeli by spojrzeć na podsumowanie występowań słów, które znajdują się poniżej, można zaobserwować, że są to tylko i wyłącznie takie słówka
+
+![alt text](https://github.com/true-or-false/Zglebianie-danych-projekt/blob/master/img/total.png?raw=true "Wykres podsumowania")
+
+Podsumowując, nie udało mi się udowodnić poprawności prawa Zipf'a dla polskich tekstów, przypadek publickacji z autocentrum, wydawał się dość obiecujący, można tam zauważyć spełnienie zależności prawa dla dwóch pierwszych kolumn, niestety im dalej tym mniej różnic, podobnie jest z resztą polskich źródeł. Można dodać, że mimo większej ilości słów w fragmencie **Lalki**, wykres wydaje się być bardzo zbliżony wizualnie do wykresu **Krzyżaków**, z początku widać tendencję spadkową, niestety reszta wykresu jest płaska. Dla kontrastu spróbowałem tekstu anglojęzycznego - **Lord Of The Rings**, tam prawo Zipf'a jakby bardziej się sprawdza, cztery kolejne słupki są od siebie niższe, niestety też nie jest idealnie. Możliwe, że prawo Zipf'a byłoby lepiej widoczne na jeszcze większych tekstach tzn. na całych książkach. 
