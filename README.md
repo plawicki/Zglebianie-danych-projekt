@@ -52,3 +52,30 @@ Kolejnym krokiem jest zliczenie występowania słów w tablicy, w tym kroku pows
 ```
 
 Ostatnim krokiem algorytmu jest posortowanie malejąco powstałej mapy, w tym przykładzie mapa zostanie bez zmian. Przy tym przykładzie ciężko stwierdzić czy prawo Zipf'a działa, ponieważ jest to zbyt krótki przykład.
+
+## Wyniki
+
+#### 1. ***Publikacje z portalu autocentrum.pl***; Liczba słów: 2888
+
+wykres ilości występowań słów w tekście:
+
+![alt text](https://github.com/true-or-false/Zglebianie-danych-projekt/img/autocentrum.png "Wykres autocentrum")
+
+
+#### 3. ***„Krzyżacy”***; Liczba słów: 23379
+
+wykres ilości występowań słów w tekście:
+
+![alt text](https://github.com/true-or-false/Zglebianie-danych-projekt/img/krzyzacy.png "Wykres Krzyżaków")
+
+#### 4. ***„Lalka”***; Liczba słów: 74923
+
+wykres ilości występowań słów w tekście:
+
+![alt text](https://github.com/true-or-false/Zglebianie-danych-projekt/img/lalka.png "Wykres Lalki")
+
+#### 5. ***„The Lord Of The Rings: Return Of The King”***; Liczba słów: 132722
+
+wykres ilości występowań słów w tekście:
+
+![alt text](https://github.com/true-or-false/Zglebianie-danych-projekt/img/lotr.png "Wykres LOTR")

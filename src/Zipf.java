@@ -21,19 +21,20 @@ public class Zipf {
 				System.out.print(p + " ");
 
 				List<String> input;
+				
 				input = Files.readAllLines(Paths.get(p), DEFAULT_CHARSET);
 
 				String text = input.stream().collect(Collectors.joining());
+				
+				allBooks.append(text);
 
 				String output = WordCounter.zipify(text);
-
-				allBooks.append(output);
 
 				Files.write(Paths.get(p.replace(".txt", ".csv")), output.getBytes());
 			}
 		}
 
-		Files.write(Paths.get("./total.csv"), allBooks.toString().getBytes());
+		Files.write(Paths.get("./total.csv"), WordCounter.zipify(allBooks.toString()).getBytes());
 		System.out.println("Total words read: " + WordCounter.ALL_BOOKS_TOTAL);
 	}
 }
